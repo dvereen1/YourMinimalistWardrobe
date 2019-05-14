@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/closet_activity1"
+    tools:context=".Activity.ClosetActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/closet_activity_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="YOU ARE IN CLOSET ACTIVITY!"/>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/closet_activity_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
